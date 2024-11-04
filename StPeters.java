@@ -20,7 +20,7 @@ public class StPeters
         while(counter < howMany)
         {
            pot = 1;
-           if(runGame() >= this.entryFee)
+           if(runGame() <= this.entryFee)
                 countBreakEvenOrWin++;
            counter++;
         }
